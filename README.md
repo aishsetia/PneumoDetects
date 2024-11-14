@@ -5,7 +5,7 @@
 - Python 3.9 or later
 - Poetry
 
-## Installation
+## Installation and Running
 
 1. Clone the repository
 2. Install dependencies using poetry
@@ -27,3 +27,9 @@ unzip chest-xray-pneumonia.zip
 ```
 
 5. Run the experiments in `experiments.ipynb`
+
+## Stats
+
+- Accuracy: 82.52%
+- AUC: 95.03%
+- F1 Score: 0.81

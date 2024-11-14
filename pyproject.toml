@@ -8,9 +8,14 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = ">=3.9,<3.11"
 tensorflow-io-gcs-filesystem = "0.31.0"
-tensorflow = "2.15.0"
-tensorflow-intel = {version="^2.15.0", platform = "win32"}
+tensorflow = "2.12.0"
+tensorflow-intel = {version="^2.12.0", platform = "win32"}
+tensorflow-macos = "2.12.0"
+tensorflow-metal = "1.0.0"
 matplotlib = "^3.9.2"
+pandas = "^2.2.3"
+seaborn = "^0.13.2"
+scikit-learn = "^1.5.2"
 
 [tool.poetry.group.dev.dependencies]
 kaggle = "^1.6.17"

@@ -25,3 +25,5 @@ kaggle datasets download -d paultimothymooney/chest-xray-pneumonia
 ```bash
 unzip chest-xray-pneumonia.zip
 ```
+
+5. Run the experiments in `experiments.ipynb`
